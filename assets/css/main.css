@@ -46,6 +46,12 @@ li>a{
   font-weight: bold;
 }
 
+i{
+  display: none;
+  justify-content:flex-end;
+  color: white;
+}
+
 .imagenFondoHeader{
   background-image: url(../img/combi.jpg);
   background-size: cover;
@@ -61,6 +67,7 @@ li>a{
 .titulosecc1{
   font-family: 'Pacifico', cursive;
   padding-right: 5%;
+  font-size: 100%;
 }
 
 .contenedorPapa{
