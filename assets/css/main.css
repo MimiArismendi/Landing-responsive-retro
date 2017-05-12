@@ -5,17 +5,29 @@
 
 body{
   font-family: 'Pacifico', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Handlee', cursive;
+  font-family: 'Bad Script', cursive;
   margin: 0 auto;
   font-size: 3em;
   line-height: 1.71429;
   width: 100%;
+  /*background-image: url(../img/fondogeneral.jpg);
+  background-size: cover;*/
+}
+
+header{
+  width: 100%;
+  position: fixed;
+  background-color: #16A085;
+  opacity: .8;
+  z-index: 1;
 }
 
 nav{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: #878C89;
   padding: 20px;
   font-size: 25px;
 }
@@ -26,18 +38,19 @@ li{
   border-radius: 5%;
   width: 15%;
   cursor: pointer;
-  opacity: .5;
 }
 
 li>a{
   text-decoration: none;
-  color: white;
+  color: black;
+  font-weight: bold;
 }
 
 .imagenFondoHeader{
   background-image: url(../img/combi.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  opacity: .9;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -46,6 +59,7 @@ li>a{
 }
 
 .titulosecc1{
+  font-family: 'Pacifico', cursive;
   padding-right: 5%;
 }
 
@@ -55,9 +69,14 @@ li>a{
   flex-direction: column;
 }
 
+.row{
+  flex-direction: row;
+}
+
 .titulosecc2{
   width: auto;
   text-align: center;
+  font-family: 'Bad Script', cursive;
 }
 .contentsecc2{
   display: flex;
@@ -88,9 +107,15 @@ li>a{
 
 .seccvideo{
   display: flex;
-  justify-content: center;
   flex-direction: column;
   width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Bad Script', cursive;
+  font-size: 160%;
+  font-weight: bold;
+  background-color: #16A085;
+  opacity: .8;
 }
 
 .titulovideo{
@@ -99,9 +124,50 @@ li>a{
 
 .video{
   justify-content: center;
-  width: 80%;
+  /*width: 80%;*/
 }
 
-.row{
-  flex-direction: row;
+.contentform{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tituloform{
+  font-family: 'Bad Script', cursive;
+  font-size: 160%;
+  font-weight: bolder;
+  font-size: 100%;
+  text-align: center;
+}
+
+.formulario{
+  display: flex;
+  justify-content: center;
+}
+
+form{
+  width:30%
+}
+
+.info{
+  font-family: 'Handlee', cursive;
+  font-size: 60%;
+  width:100%;
+  margin:5%;
+  /*border:*/
+}
+
+button{
+  /*font-family: 'Sacramento', cursive;*/
+  font-size:30%;
+  margin-left:40%;
+}
+
+footer{
+  background-color: #16A085;
+  opacity: .9;
+  font-size: 50%;
+  text-align: center;
 }
